@@ -34,8 +34,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # theme: minima
-remote_theme: kitian616/jekyll-TeXt-theme
-# remote_theme: ankitsultana/researcher@gem
+remote_theme: ankitsultana/researcher@gem
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
