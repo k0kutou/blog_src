@@ -33,9 +33,12 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-theme: minima
+# theme: minima
+remote_theme: kitian616/jekyll-TeXt-theme
+# remote_theme: ankitsultana/researcher@gem
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
