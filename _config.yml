@@ -33,11 +33,23 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-# theme: minima
-remote_theme: ankitsultana/researcher@gem
+theme: minima
+# theme: minimal-mistakes-jekyll
+# remote_theme:
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  # - jekyll-include-cache
+  # - jekyll-remote-theme
+
+
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: post
+#       comments: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -51,4 +63,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-destination: ./docs
+destination: ../k0kutou.github.io
