@@ -34,7 +34,7 @@ kramdown:
   syntax_highlighter: rouge
 
 # theme: minima
-remote_theme: jekyll-text-theme
+theme: jekyll-text-theme
 plugins:
   - jekyll-feed
 
