@@ -51,3 +51,5 @@ plugins:
 #   - vendor/ruby/
 
 destination: ./docs
+
+theme: jekyll-theme-modernist
