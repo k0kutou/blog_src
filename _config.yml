@@ -33,8 +33,7 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-# theme: minima
-remote_theme: kitian616/jekyll-TeXt-theme
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
@@ -51,4 +50,3 @@ plugins:
 #   - vendor/ruby/
 
 destination: ./docs
-
