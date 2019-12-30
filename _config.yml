@@ -18,14 +18,19 @@ title: Under the oceans
 description: >- # this means to ignore newlines until "baseurl:"
   A place for shower thoughts and memos.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://K0kut0u.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://k0kutou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
 # Build settings
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
 markdown: kramdown
 kramdown:
   input: GFM
+  math_engine: mathjax
   syntax_highlighter: rouge
 
 theme: minima
@@ -44,4 +49,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-destination: ../k0kut0u.github.io
+destination: ./docs
